@@ -11,6 +11,8 @@ import Project3 from './projects/Project3';
 import Project4 from './projects/Project4';
 import Project5 from './projects/Project5';
 import Project6 from './projects/Project6';
+
+import Footer from './Footer';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 
@@ -30,8 +32,8 @@ const App = () => {
                 <Route path='project5' element={Project5()} />
                 <Route path='project6' element={Project6()} />
                 <Route path='*' element={<Navigate to='/' />} />
-
             </Routes>
+            <Footer />
         </>
     )
 
