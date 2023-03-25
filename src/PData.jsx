@@ -4,12 +4,14 @@ import img3 from './assets/webview-android.png'
 import img4 from './assets/qrscanner-android.png'
 import img5 from './assets/esp-cam.png'
 import img6 from './assets/timelapse-camera.png'
+import img7 from './assets/Chatroom.png'
 import blog1_data from './data/blog1_data'
 import blog2_data from './data/blog2_data'
 import blog3_data from './data/blog3_data'
 import blog4_data from './data/blog4_data'
 import blog5_data from './data/blog5_data'
 import blog6_data from './data/blog6_data'
+import blog7_data from './data/blog7_data'
 
 const PData = [
     {
@@ -65,6 +67,15 @@ const PData = [
         card_emb_link: "https://www.youtube.com/embed/peTnIN9iicQ",
         card_code_link: "https://github.com/Himanshu495-rada/esp32-camera-micropython",
         blog_data: blog6_data()
+    },
+    {
+        src: img7,
+        card_title: "How to make Chatroom App in Python | Python Chatroom",
+        card_description: "In this blog we will learn how to make chatroom app in python using socket programming.",
+        card_link: "/project7",
+        card_emb_link: "https://www.youtube.com/embed/qBoyXxvwo4M",
+        card_code_link: "https://github.com/Himanshu495-rada/multiclient_chatroom",
+        blog_data: blog7_data()
     }
 ]
 
