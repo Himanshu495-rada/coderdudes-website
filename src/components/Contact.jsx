@@ -1,9 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import animation from './assets/coding-animation.json';
+import animation from '../assets/telegram-animation.json'
 import Lottie from 'react-lottie';
 
-const Home = () => {
+const Contact = () => {
 
     const defaultOptions = {
         loop: true,
@@ -23,13 +22,10 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                     <h1>
-                                        Wanna grow your business using <strong className="brand-name" style={{ color: "#0000ff" }} >Programming</strong>
+                                        Please contact me via <strong className="brand-name" style={{ color: "#0088cc" }} >Telegram</strong>
                                     </h1>
-                                    <h2 className="my-3">
-                                        We are the team of talented developer making websites, apps, and cool stuff
-                                    </h2>
                                     <div className="mt-3">
-                                        <NavLink to="/projects" className="btn"> Check it out</NavLink>
+                                        <a href="https://www.telegram.me/himyaa702" className="btn"> Contact me</a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 header-img">
@@ -45,4 +41,4 @@ const Home = () => {
 
 }
 
-export default Home;
+export default Contact;

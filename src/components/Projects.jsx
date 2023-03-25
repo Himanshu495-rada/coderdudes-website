@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import PData from './PData';
+import PData from '../projects/PData';
 
 const Projects = () => {
     return (
@@ -17,7 +17,6 @@ const Projects = () => {
                             })}
                         </div>
                     </div>
-
                 </div>
             </div>
         </>

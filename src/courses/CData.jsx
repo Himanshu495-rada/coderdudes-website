@@ -1,5 +1,4 @@
-import banner from './assets/python_banner.png'
-import course1_data from './data/course1_data'
+import banner from '../assets/python_banner.png'
 
 const CData = [
     {
@@ -9,7 +8,6 @@ const CData = [
         card_link: "/course1",
         card_emb_link: "https://www.youtube.com/embed/videoseries?list=PLcB4rXXkGHk4miiorOGnXAWZFRZH9hdbc",
         card_code_link: "https://github.com/Himanshu495-rada",
-        blog_data: course1_data()
     },
 ];
 

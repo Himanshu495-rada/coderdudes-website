@@ -1,5 +1,5 @@
 import React from 'react';
-import CData from './CData';
+import CData from '../courses/CData';
 import Card from './Card';
 
 const Courses = () => {

@@ -1,17 +1,18 @@
 import React from 'react';
 import PData from '../PData';
-import Blog from '../Blog';
-function Project1(props) {
+import Blog from '../../components/Blog';
+import blog7_data from './blog7_data';
 
-    const key = 0;
+function Project7(props) {
+    const key = 6;
     return (
         <>
             <Blog card_title={PData[key].card_title}
                 card_emb_link={PData[key].card_emb_link}
                 card_code_link={PData[key].card_code_link}
-                blog_data={PData[key].blog_data} />
+                blog_data={blog7_data()} />
         </>
     );
 }
 
-export default Project1;
+export default Project7;
