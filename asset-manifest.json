@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/coderdudes-website/static/css/main.8ed5cd1d.css",
-    "main.js": "/coderdudes-website/static/js/main.4ec68a46.js",
-    "static/media/Chatroom.png": "/coderdudes-website/static/media/Chatroom.476852465f565c084b4e.png",
-    "static/media/python_banner.png": "/coderdudes-website/static/media/python_banner.3aab5d08797f6abf5682.png",
-    "static/media/torrent-python.png": "/coderdudes-website/static/media/torrent-python.a2e54f561ee5194ed0a1.png",
-    "static/media/esp-cam.png": "/coderdudes-website/static/media/esp-cam.e3d0402427e12ac26c70.png",
-    "static/media/profile.jpg": "/coderdudes-website/static/media/profile.94c0e44371a597d4dc75.jpg",
-    "static/media/telegram_bot.png": "/coderdudes-website/static/media/telegram_bot.e87f8ba7c04bf309217a.png",
-    "static/media/webview-android.png": "/coderdudes-website/static/media/webview-android.3b2b76c3c0c4fba5bfde.png",
-    "static/media/qrscanner-android.png": "/coderdudes-website/static/media/qrscanner-android.8cd8176a6a173f6d68af.png",
-    "static/media/timelapse-camera.png": "/coderdudes-website/static/media/timelapse-camera.75bb8d6ccd58606af506.png",
-    "index.html": "/coderdudes-website/index.html",
-    "main.8ed5cd1d.css.map": "/coderdudes-website/static/css/main.8ed5cd1d.css.map",
-    "main.4ec68a46.js.map": "/coderdudes-website/static/js/main.4ec68a46.js.map"
+    "main.css": "/static/css/main.8ed5cd1d.css",
+    "main.js": "/static/js/main.0bdd37c3.js",
+    "static/media/Chatroom.png": "/static/media/Chatroom.476852465f565c084b4e.png",
+    "static/media/python_banner.png": "/static/media/python_banner.3aab5d08797f6abf5682.png",
+    "static/media/torrent-python.png": "/static/media/torrent-python.a2e54f561ee5194ed0a1.png",
+    "static/media/esp-cam.png": "/static/media/esp-cam.e3d0402427e12ac26c70.png",
+    "static/media/profile.jpg": "/static/media/profile.94c0e44371a597d4dc75.jpg",
+    "static/media/telegram_bot.png": "/static/media/telegram_bot.e87f8ba7c04bf309217a.png",
+    "static/media/webview-android.png": "/static/media/webview-android.3b2b76c3c0c4fba5bfde.png",
+    "static/media/qrscanner-android.png": "/static/media/qrscanner-android.8cd8176a6a173f6d68af.png",
+    "static/media/timelapse-camera.png": "/static/media/timelapse-camera.75bb8d6ccd58606af506.png",
+    "index.html": "/index.html",
+    "main.8ed5cd1d.css.map": "/static/css/main.8ed5cd1d.css.map",
+    "main.0bdd37c3.js.map": "/static/js/main.0bdd37c3.js.map"
   },
   "entrypoints": [
     "static/css/main.8ed5cd1d.css",
-    "static/js/main.4ec68a46.js"
+    "static/js/main.0bdd37c3.js"
   ]
 }
