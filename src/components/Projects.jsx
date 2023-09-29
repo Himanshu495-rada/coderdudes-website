@@ -1,10 +1,12 @@
 import React from 'react';
 import Card from './Card';
 import PData from '../projects/PData';
+import Navbar from './Navbar';
 
 const Projects = () => {
     return (
         <>
+            <Navbar />
             <div className='my-5'>
                 <h1 className='text-center'>Our Projects</h1>
             </div>

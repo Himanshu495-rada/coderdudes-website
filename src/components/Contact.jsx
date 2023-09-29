@@ -1,6 +1,7 @@
 import React from 'react';
 import animation from '../assets/telegram-animation.json'
 import Lottie from 'react-lottie';
+import Navbar from './Navbar';
 
 const Contact = () => {
 
@@ -15,6 +16,7 @@ const Contact = () => {
 
     return (
         <>
+            <Navbar />
             <section id='header' className="">
                 <div className="container-fluid nav_bg">
                     <div className="row">

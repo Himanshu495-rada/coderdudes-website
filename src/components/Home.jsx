@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import animation from '../assets/coding-animation.json';
 import Lottie from 'react-lottie';
+import Navbar from './Navbar';
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
 
     return (
         <>
+            <Navbar />
             <section id='header' className="">
                 <div className="container-fluid nav_bg">
                     <div className="row">

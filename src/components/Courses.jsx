@@ -1,10 +1,12 @@
 import React from 'react';
 import CData from '../courses/CData';
 import Card from './Card';
+import Navbar from './Navbar';
 
 const Courses = () => {
     return (
         <>
+            <Navbar />
             <div className='my-5'>
                 <h1 className='text-center'>Our Courses</h1>
             </div>

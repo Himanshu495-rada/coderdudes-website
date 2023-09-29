@@ -1,10 +1,12 @@
 import React from 'react';
 import profileImg from '../assets/profile.jpg';
 import { NavLink } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const About = () => {
     return (
         <>
+            <Navbar />
             <section id='header' className="">
                 <div className="container-fluid nav_bg">
                     <div className="row">
