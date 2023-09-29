@@ -43,7 +43,7 @@ const router = createBrowserRouter([
     element: <Courses />,
   },
   {
-    path: "/courses1",
+    path: "/python-course",
     element: <Course1 />,
   },
   {
@@ -51,31 +51,31 @@ const router = createBrowserRouter([
     element: <Projects />,
   },
   {
-    path: "/project1",
+    path: "/how-to-create-telegram-bot-in-python",
     element: <Project1 />,
   },
   {
-    path: "/project2",
+    path: "/how-to-download-torrent-using-python",
     element: <Project2 />,
   },
   {
-    path: "/project3",
+    path: "/webview-in-android-studio",
     element: <Project3 />,
   },
   {
-    path: "/project4",
+    path: "/how-to-make-qr-code-scanner-app-from-scratch",
     element: <Project4 />,
   },
   {
-    path: "/project5",
+    path: "/esp32-camera-module",
     element: <Project5 />,
   },
   {
-    path: "/project6",
+    path: "/esp32-timelapse-camera",
     element: <Project6 />,
   },
   {
-    path: "/project7",
+    path: "/how-to-make-chatroom-app-in-python",
     element: <Project7 />,
   },
   {
