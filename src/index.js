@@ -16,16 +16,12 @@ import Project7 from "./projects/Project7/Project7";
 import Course1 from "./courses/Course1/Course1";
 import Footer from "./components/Footer";
 
-import {
-  Navigate,
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { Navigate, createHashRouter, RouterProvider } from "react-router-dom";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
