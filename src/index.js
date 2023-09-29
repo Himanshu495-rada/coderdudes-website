@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+//import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -17,6 +17,7 @@ import Course1 from "./courses/Course1/Course1";
 import Footer from "./components/Footer";
 
 import { Navigate, createHashRouter, RouterProvider } from "react-router-dom";
+import { hydrate, render } from "react-dom";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
@@ -80,12 +81,34 @@ const router = createHashRouter([
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <>
-    <React.StrictMode>
-      <RouterProvider router={router} />
-      <Footer />
-    </React.StrictMode>
-  </>
-);
+const rootElement = document.getElementById("root");
+if (rootElement.hasChildNodes()) {
+  hydrate(
+    <>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+        <Footer />
+      </React.StrictMode>
+    </>,
+    rootElement
+  );
+} else {
+  render(
+    <>
+      <React.StrictMode>
+        <RouterProvider router={router} />
+        <Footer />
+      </React.StrictMode>
+    </>,
+    rootElement
+  );
+}
+
+// root.render(
+//   <>
+//     <React.StrictMode>
+//       <RouterProvider router={router} />
+//       <Footer />
+//     </React.StrictMode>
+//   </>
+// );
