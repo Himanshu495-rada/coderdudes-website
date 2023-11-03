@@ -13,6 +13,7 @@ import Project4 from "./projects/Project4/Project4";
 import Project5 from "./projects/Project5/Project5";
 import Project6 from "./projects/Project6/Project6";
 import Project7 from "./projects/Project7/Project7";
+import Project8 from "./projects/Project8/Project8";
 import Course1 from "./courses/Course1/Course1";
 import Footer from "./components/Footer";
 
@@ -74,6 +75,10 @@ const router = createHashRouter([
   {
     path: "/how-to-make-chatroom-app-in-python",
     element: <Project7 />,
+  },
+  {
+    path: "/secure-user-authentication-with-express-nodejs-and-prisma",
+    element: <Project8 />,
   },
   {
     path: "*",

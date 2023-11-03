@@ -5,6 +5,7 @@ import img4 from '../assets/qrscanner-android.png'
 import img5 from '../assets/esp-cam.png'
 import img6 from '../assets/timelapse-camera.png'
 import img7 from '../assets/Chatroom.png'
+import img8 from '../assets/authentication-backend.png'
 
 const PData = [
     {
@@ -62,6 +63,14 @@ const PData = [
         card_link: "/how-to-make-chatroom-app-in-python",
         card_emb_link: "https://www.youtube.com/embed/qBoyXxvwo4M",
         card_code_link: "https://github.com/Himanshu495-rada/multiclient_chatroom",
+    },
+    {
+        src: img8,
+        card_title: "Secure User Authentication with Express, Node.js, and Prisma | JWT Token Login Tutorial",
+        card_description: "In this blog we will learn how to create a simple authentication backend application in node.js using express.js",
+        card_link: "/secure-user-authentication-with-express-nodejs-and-prisma",
+        card_emb_link: "https://www.youtube.com/embed/DIWeHOHwqao?si=MaIZQfmbD8kMI9Yx",
+        card_code_link: "https://github.com/Himanshu495-rada/Authentication-Backend",
     }
 ]
 
